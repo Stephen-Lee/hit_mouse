@@ -1,0 +1,107 @@
+body{
+	background-image: url(../images/glass2.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+#timer{
+ position: absolute;
+ left: 38%;
+ width: 26%;
+ background-color: #FFF;
+ color: red;
+ text-align: center;
+ border-radius: 5%;
+ padding: 1%;
+}
+
+#start_button{
+	position: absolute;
+	left: 35%;
+	top: 35%;
+	z-index: 20;
+}
+
+#top-bar div{
+  font-weight: bold;
+  font-size: 25px;
+}
+
+#health{
+	display: inline-block;
+}
+
+.health_image{
+	width: 50px;
+	height: 50px;
+}
+
+#speed,
+#score{
+	display: inline-block;
+	color: red;
+	font-weight: bold;
+
+}
+
+#cursor{
+	position: absolute;
+	background-image: url(../images/hammer.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	width: 80px;
+	height: 80px;
+	z-index: 30;
+	
+}
+
+.rotate50{
+	transform: rotate(50deg);
+}
+
+#mouse-zone{
+ margin-top: 8%;
+ margin-left: 5%;
+ width: 70%;
+ height: 70%;
+}
+
+.hole{
+	position: relative;
+	float: left;
+	background-image: url(../images/hole.png);
+	background-size: 100% 100%;
+	width: 18%;
+	height: 30%;
+	margin: 1%;
+	
+}
+
+.boom{
+	position: absolute;
+    margin-left: 15%;
+    width: 60%;
+    height: 60%;
+    margin-bottom: 5%;
+}
+
+.mouse{
+	position: absolute;
+    margin-left: 15%;
+    width: 70%;
+    height: 80%;
+}
+
+
+
+#bgm_switcher{
+	position: absolute;
+	top: 5%;
+	right: 5%;
+	width: 100px;
+	height: 50px;
+	background-color: #FF0000;
+	font-size: bold;
+	font-weight: 40px;
+	color: white;
+}
